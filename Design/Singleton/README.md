@@ -57,8 +57,7 @@ public class Main {
 
 
 ## 실제로 언제 사용될까?
-주로 공통된 객체를 여러개 생성해야 하는 상황에 많이 사용한다.<br>
-대표적으로 DB Connection  Pool, Thread Pool, Cache 등이 있다.
+주로 공통된 객체를 여러개 생성해야 하는 상황에 많이 사용한다. 대표적으로 DB Connection  Pool, Thread Pool, Cache 등이 있다. <br>
 다만, 싱글톤 패턴을 통해 얻을 수 있는 이점과 더불어 다양한 문제점들을 수반하기 때문에 적절한 trade-off가 필요하다.
 
 ## Singleton의 문제점
