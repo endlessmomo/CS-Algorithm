@@ -49,8 +49,9 @@ public class Main {
 ```
 
 > ### [Info] sychronized란?
-> <center> <img alt="synchronized" src="../../images/design/singleton/singleton.png" width="300" height="300" /> </center>
-> synchronized 키워드는 멀티 쓰레드 환경에서 두 개 이상의 쓰레드가 하나의 변수에 동시에 접근을 할 때, Race Condition이 발생하지 않도록 방지해준다.
+> <div style="text-align: center"> <img alt="synchronized" src="../../images/design/singleton/singleton.png" width="300" height="300" /> </div>
+> 
+>  synchronized 키워드는 멀티 쓰레드 환경에서 두 개 이상의 쓰레드가 하나의 변수에 동시에 접근을 할 때, Race Condition이 발생하지 않도록 방지해준다.
 > 즉, 쓰레드가 해당 메서드를 실행하는 동안 다른 쓰레드가 접근하지 못하도록 Lock을 거는 것이다.<br>
 > 따라서, 위와 같이 sychronized를 쓰게 되면 쓰레드 하나하나씩 접근하여 Thread Safe를 유지할 수 있지만 성능적으로 문제를 야기시킬 수 있어, 이중 조건문을 통해 제어한다.  
 
