@@ -30,9 +30,9 @@
 
 ## Participant
 
-| 이름(별칭) |                         엄수혁(Yuki)                         |
-|:------:|:---------------------------------------------------------:|
-|   -    | <img src="./images/profile.JPG" width="250" height="250"> |
-| Github |      [@endlessmomo](https://github.com/endlessmomo)       |  
-| 자기 소개  |                  근거있는 코드의 사랑에 빠진 엄수혁입니다.                  |
+|                         엄수혁(Yuki)                         |
+|:---------------------------------------------------------:|
+| <img src="./images/profile.JPG" width="250" height="250"> |
+|      [@endlessmomo](https://github.com/endlessmomo)       |  
+|                  근거있는 코드 작성을 중시하는 개발자 엄수혁입니다.                  |
 
