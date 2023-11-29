@@ -32,15 +32,17 @@ public class 강의실배정 {
 
         // 시간이 동일한 경우 끝나는 시간이 빠른 경우를 먼저 앞에 오도록 진행
         // 음수, 0 (자리 변동 없음) | 양수 (자리 변동)
+
+        /* 틀린 이유
+        *  강의가 먼저 시작한다해서 반드시 먼저 끝나는 것이 아니다
+        *  따라서 빠르게 끝나는 시간 순서로 정렬을 해서 세는게 정답이다.
+        *
+        * */
         Arrays.sort(corses, new Comparator<Corse>() {
             @Override
             public int compare(Corse o1, Corse o2) {
-                if(o1.start == o2.start) {
                     // end 기준으로 내림차순 정렬
                     return o1.end - o2.end;
-                }
-                // start를 기준으로 내림차순
-                return o1.start - o2.start;
             }
         });
 
